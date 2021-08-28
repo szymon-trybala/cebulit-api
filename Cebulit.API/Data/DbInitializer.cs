@@ -1024,7 +1024,7 @@ namespace Cebulit.API.Data
                     Id = 3, Name = "Kowalski", Description = "W zestawie schabowy z ziemniakami i zasmażaną kapustą",
                     ProcessorId = 7, MotherboardId = 6, MemoryId = 3, Storage = new[] {storageDevices[0]},
                     GraphicsCardId = 2, PowerSupplyId = 2, CaseId = 7, Price = 2999,
-                    PhotoUrl = "https://drive.google.com/uc?export=view&id=1a6BMj213MWRrmGobQ2gEMTYDWl6l0zdE"
+                    PhotoUrl = "https://drive.google.com/uc?export=view&id=1VZzUmcmSpmInAhGiomuSVAO3cAAxrx11"
                 },
                 new Build
                 {
@@ -1052,7 +1052,7 @@ namespace Cebulit.API.Data
                     Id = 7, Name = "Komunia", Description = "Komputer do nauki", ProcessorId = 4, MotherboardId = 1,
                     MemoryId = 3, GraphicsCardId = 3, Storage = new[] {storageDevices[0]}, PowerSupplyId = 2,
                     CaseId = 7, Price = 3399,
-                    PhotoUrl = "https://drive.google.com/uc?export=view&id=1a6BMj213MWRrmGobQ2gEMTYDWl6l0zdE"
+                    PhotoUrl = "https://drive.google.com/uc?export=view&id=1VZzUmcmSpmInAhGiomuSVAO3cAAxrx11"
                 },
                 new Build
                 {
@@ -1064,7 +1064,7 @@ namespace Cebulit.API.Data
                 {
                     Id = 9, Name = "AMD", Description = "Zaawansowane małe urządzenia", ProcessorId = 10, MotherboardId = 5,
                     MemoryId = 5, GraphicsCardId = 11, Storage = new [] {storageDevices[4]}, PowerSupplyId = 6, CaseId = 6, Price = 9999,
-                    PhotoUrl = "https://drive.google.com/uc?export=view&id=1r_cff6U-p-59DZAM-sYsJR3c7MVcH8xZ"
+                    PhotoUrl = "https://drive.google.com/uc?export=view&id=1S60ialDxd_1txtaVOX76JSvrkDbLODrt"
                 },            
                 new Build
                 {
