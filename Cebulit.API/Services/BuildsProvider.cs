@@ -33,6 +33,9 @@ namespace Cebulit.API.Services
         {
             var result = await _pcPartsRepository.GetFiltered(filters);
 
+            if (string.IsNullOrEmpty(filters.OrderBy) && userId.HasValue)
+                filters.OrderBy = "tagMatch";
+                
             if (filters.OrderBy != "tagMatch" || !userId.HasValue) return result;
             var userTagMatches = await _userRepository.GetTagMatchesAsync(userId.Value);
             return OrderByTagMatches(result, userTagMatches);
